@@ -1,0 +1,139 @@
+.elementor-1965 .elementor-element.elementor-element-834e0e2 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --background-transition: .3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px
+}
+
+.elementor-1965 .elementor-element.elementor-element-a89a00b .hfe-site-logo {
+    text-align: left
+}
+
+.elementor-1965 .elementor-element.elementor-element-a89a00b .hfe-site-logo .hfe-site-logo-container img {
+    width: 223px
+}
+
+.elementor-1965 .elementor-element.elementor-element-a89a00b .widget-image-caption {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.elementor-1965 .elementor-element.elementor-element-a89a00b .hfe-site-logo-container .hfe-site-logo-img {
+    border-style: none
+}
+
+.elementor-1965 .elementor-element.elementor-element-a254536>.elementor-widget-container {
+    padding: 0
+}
+
+.elementor-1965 .elementor-element.elementor-element-0a4028c>.elementor-widget-container {
+    margin: 25px 0 0
+}
+
+.elementor-1965 .elementor-element.elementor-element-0a4028c .elementor-heading-title {
+    font-size: 24px
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(8px/2)
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(8px/2)
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(8px/2);
+    margin-left: calc(8px/2)
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-8px/2);
+    margin-left: calc(-8px/2)
+}
+
+body.rtl .elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-8px/2)
+}
+
+body:not(.rtl) .elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-8px/2)
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-item:not(:last-child):after {
+    content: "";
+    width: 60%;
+    border-color: #DDDDDD42
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after {
+    border-top-style: solid;
+    border-top-width: 1px
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after {
+    border-left-style: solid
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-inline-items .elementor-icon-list-item:not(:last-child):after {
+    border-left-width: 1px
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-icon i {
+    color: #3358d3;
+    transition: color .3s
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-icon svg {
+    fill: #3358d3;
+    transition: fill .3s
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d {
+    --e-icon-list-icon-size: 16px;
+    --icon-vertical-offset: 0px
+}
+
+.elementor-1965 .elementor-element.elementor-element-77aac5d .elementor-icon-list-text {
+    transition: color .3s
+}
+
+.elementor-1965 .elementor-element.elementor-element-9af20e1>.elementor-widget-container {
+    margin: 30px 0 14px
+}
+
+.elementor-1965 .elementor-element.elementor-element-9af20e1 .elementor-heading-title {
+    font-size: 24px
+}
+
+.elementor-1965 .elementor-element.elementor-element-0adf9bb.elementor-element {
+    --align-self: flex-start
+}
+
+.elementor-1965 .elementor-element.elementor-element-0adf9bb .gallery-item .gallery-caption {
+    display: none
+}
+
+.elementor-1965 .elementor-element.elementor-element-0adf9bb .gallery-item {
+    padding: 0 15px 15px 0
+}
+
+.elementor-1965 .elementor-element.elementor-element-0adf9bb .gallery {
+    margin: 0 -15px -15px 0
+}
+
+.elementor-1965 .elementor-element.elementor-element-0adf9bb .gallery-item img {
+    border-radius: 5px
+}
