@@ -181,7 +181,7 @@
                         </div> -->
                     </li>
                     <li class="nav-item dropdown menu-item-has-children">
-                        <a href="#about-us"  class=" fw-medium" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        <a href="#about_us_section"  class=" fw-medium" role="button" data-bs-toggle="dropdown" aria-expanded="false"
                             style="color: rgb(179, 159, 11);  font-size: 1.3em;  margin: 20px; color: #211B58; ">About</a>
                         <!-- <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
@@ -461,9 +461,18 @@
                 </div>
             </div>
         </section>
+    <script>
+    document.querySelector('a[href="#about_us_section"]').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector('#about_us_section').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+</script>
+
 
         <!-- about us section -->
-        <section id="about-us" style="height: 400px; display: flex;  align-items: center; flex-direction: column; margin-top: 20px;">
+        <section id="about_us_section" style="height: 400px; display: flex;  align-items: center; flex-direction: column; margin-top: 20px;">
            
 
                 <div>
@@ -499,8 +508,7 @@
                     </div>
                     <div class="col-lg-7 mb-5">
                         <div class="box-title-top" data-aos="fade-up">
-<<<<<<< HEAD
-                            <!-- <div class="text-rotate-circle">
+   <!-- <div class="text-rotate-circle">
                                 <div class="box-circle-round">
                                     <div class="position-relative bg-primary-500 icon_140  icon-shape rounded-circle">
                                         <a href="https://www.youtube.com/watch?v=TfU0qjuZkJ4" class="popup-video no-pulse">
@@ -515,9 +523,7 @@
                                     </div>
                                 </div>
                             </div> -->
-=======
-                           
->>>>>>> dev
+
                             <div class="title-section-2">
                                 <!-- <p class="title-line-2">CONSUlTING AGENCY</p> -->
                                 <h4 class="heading-3xl"><span>Successfully Showcasing </span><span
