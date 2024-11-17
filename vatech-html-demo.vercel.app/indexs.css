@@ -1,0 +1,177 @@
+.main-div {
+    display: flex; 
+    width: full; 
+    height: max-content;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.img_div{
+    width: 70%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.text-div{
+    width: 40%; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.div-p{
+    width:95%; 
+    margin: 0 auto; 
+    margin-top: 5%; 
+    font-size: 1.3em; 
+}
+.button{
+   margin-left:18px; 
+   margin-top: 10%;  
+   font-size: 1.3em; 
+}
+
+.main-div2{
+    display: flex; 
+    width: full; 
+    height: max-content;
+    flex-wrap: nowrap;
+}
+.img_div2{
+   width: 70%; 
+   display: flex; 
+   flex-direction: column
+}
+.text-div2{
+    width: 40%; 
+    display: flex; 
+    flex-direction: column; 
+}
+.button2{
+    margin-left:18px; 
+    margin-top: 10%;  
+    font-size: 1.3em; 
+ }
+
+ .div-p2{
+    width:95%; 
+    margin: 0 auto; 
+    margin-top: 5%; 
+    font-size: 1.3em; 
+}
+/* Media query for mobile view */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .main-div {
+        flex-wrap: wrap;
+        height: max-content;
+        padding: 5px;
+         /* Enables wrapping on smaller screens */
+    }
+    .text-div{
+        font-size:small;
+        text-wrap: wrap;
+        width: 100%;
+    }
+    .img_div{
+        width: 100%;
+    }
+    .button{
+        padding: 1px;
+        
+    }
+    .button2{
+        padding: 1px;
+    }
+    .main-div2{
+        flex-direction: column-reverse;
+    }
+    .img_div2{
+        width: 100%;
+    }
+    .text-div2{
+        font-size:small;
+        text-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+
+
+  
+/* 
+Add media queries for responsive design */ 
+ /* General styling for mobile */
+/* General styling for mobile */
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .box-testimonials {
+      padding: 15px 5px; /* Reduce padding */
+    }
+  
+    .heading-3xl {
+      font-size: 1.2rem; /* Smaller font size for headings */
+      line-height: 1.2;
+    }
+  
+    .box-slider-testimonials {
+      margin-right: 0;
+      overflow: hidden;
+    }
+  
+    .swiper-container {
+      overflow: hidden;
+    }
+  
+    .swiper-wrapper {
+      display: flex;
+      gap: 10px; /* Smaller gap between slides */
+    }
+  
+    .swiper-slide {
+      flex: 0 0 auto; /* Maintain horizontal scroll */
+      width: 70%; /* Decrease width for smaller screens */
+      box-sizing: border-box;
+    }
+  
+    .card-testimonials {
+      padding: 8px; /* Reduce padding inside the card */
+      border-radius: 8px;
+    }
+  
+    .rating img {
+      width: 14px; /* Smaller star icons */
+      height: 14px;
+    }
+  
+    .comment-text {
+      font-size: 0.8rem; /* Smaller font size for comments */
+      line-height: 1.2;
+      margin: 8px 0;
+    }
+  
+    .comment-author {
+      display: flex;
+      align-items: center;
+      gap: 8px; /* Adjust gap between author image and info */
+    }
+  
+    .comment-author-image img {
+      width: 35px; /* Smaller author image */
+      height: 35px;
+      border-radius: 50%;
+    }
+  
+    .comment-author-info h6 {
+      font-size: 0.85rem;
+    }
+  
+    .comment-author-info p {
+      font-size: 0.7rem;
+    }
+  
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none; /* Hide navigation buttons for smaller screens */
+    }
+  }
+  
